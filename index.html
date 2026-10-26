@@ -10,7 +10,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Suim Jeong — AI Film / Motion Portfolio">
 <meta property="og:description" content="Selected Works 2024—2026 · Direction · Generative AI · Editing">
-<meta property="og:image" content="https://archiverjj.github.io/Portfolio/business-card-popup.png">
+<meta property="og:image" content="https://archiverjj.github.io/Portfolio/business-card.png">
+<meta property="og:image:width" content="851">
+<meta property="og:image:height" content="482">
 <meta property="og:url" content="https://archiverjj.github.io/Portfolio/">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -361,7 +363,7 @@ a{color:inherit}
 .intro-card{
   /* 명함을 이미지 대신 실제 텍스트 + 벡터로 구성 → 어떤 화면에서도 선명 */
   position:relative;container-type:inline-size;
-  width:min(460px,84vw);aspect-ratio:7/4;
+  width:min(500px,86vw);aspect-ratio:851/482;
   background:#fff;color:#111;border-radius:8px;overflow:visible;
   box-shadow:0 30px 90px rgba(0,0,0,.26),0 6px 24px rgba(0,0,0,.16);
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;
@@ -377,6 +379,7 @@ a{color:inherit}
 .intro-card .wordmark{position:absolute;top:52.4%;left:0;width:100%;height:41%;display:block;pointer-events:none}
 .intro-card .city{bottom:3.2%;left:2.2%;font-size:2.7cqw}
 .intro-card .ig{bottom:3.2%;right:2.2%;font-size:2.7cqw}
+.intro-card .card-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;user-select:none}
 .intro-close{
   position:absolute;top:-20px;right:-20px;z-index:3;
   width:34px;height:34px;border-radius:50%;border:0;padding:0;
@@ -400,7 +403,7 @@ a{color:inherit}
 }
 @media (max-width:700px){
   .intro-card{width:min(86vw,360px);border-radius:5px}
-  .intro-close{top:-18px;right:-16px;width:34px;height:34px}
+  .intro-close{top:-46px;right:0;width:36px;height:36px}
   .intro-caption{font-size:9px;letter-spacing:.14em}
 }
 @media (prefers-reduced-motion:reduce){
@@ -484,13 +487,7 @@ html,body{background:var(--paper)}
   <div class="intro-card-wrap">
     <div class="intro-card" role="group" aria-label="Suim Jeong 명함">
       <button class="intro-close" id="introSkip" type="button" aria-label="명함 닫기">×</button>
-      <p class="c name">Suim Jeong<small>Graphic Designer</small></p>
-      <p class="c uni">Hanbat National University</p>
-      <p class="c contact">+82 2251 8165<br><a href="mailto:archiver.jj@gmail.com">archiver.jj@gmail.com</a></p>
-      <p class="c field">Graphic Art + Design</p>
-      <img class="wordmark" src="card-wordmark.svg" alt="" draggable="false">
-      <p class="c city">Daejeon, Korea</p>
-      <p class="c ig">@s.archivoo</p>
+      <img class="card-img" src="business-card.png" width="851" height="482" alt="Suim Jeong 명함 — Graphic Designer, Hanbat National University, +82 10 2251 8165, archiver.jj@gmail.com, @archiver.jj" draggable="false">
     </div>
     <div class="intro-caption">SUIM JEONG / CONTACT CARD</div>
   </div>
