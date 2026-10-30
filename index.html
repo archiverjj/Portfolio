@@ -235,7 +235,7 @@ a{color:inherit}
 .modal-body .eyebrow{color:#7d7d7d}
 .modal h2{font-size:clamp(34px,5vw,72px);font-weight:500;letter-spacing:-.055em;line-height:.95;margin:0}
 .modal-lead{font-size:clamp(16px,1.6vw,21px);line-height:1.45;letter-spacing:-.02em;color:#eee;margin:0}
-.modal-detail{margin:22px 0 0;color:#b9b9b9;font-size:14px;line-height:1.9;max-width:680px;word-break:keep-all}
+.modal-detail{white-space:pre-line;margin:22px 0 0;color:#b9b9b9;font-size:14px;line-height:1.9;max-width:680px;word-break:keep-all}
 .modal-credits{display:grid;grid-template-columns:auto 1fr;gap:10px 28px;margin:34px 0 0;padding-top:20px;border-top:1px solid #222;font-size:12px}
 .modal-credits dt{color:#6f6f6f;letter-spacing:.1em;text-transform:uppercase;font-size:10px;padding-top:2px}
 .modal-credits dd{margin:0;color:#ddd}
@@ -609,6 +609,10 @@ const projects=[
   desc:'물에 뜰 만큼 가볍고, 물에 빠져도 끄떡없는 맥북 에어를 가정한 가상 광고.',
   detail:'가볍고 방수까지 되는 맥북 에어가 출시된다면? 이라는 가정에서 출발한 가상 광고입니다. 연못 위를 둥둥 떠다니는 맥북으로 가벼움을, 물 위에서도 멀쩡히 작동하는 모습으로 방수 기능을 표현했습니다. 화면이 너무 선명한 나머지 연못의 개구리가 진짜 연못으로 착각해 화면 속으로 뛰어드는 장면으로 디스플레이의 화질을 재치 있게 풀어냈습니다.',
   image:'thumbs/macbook-air-n.jpg',video:'macbook-air-n.mp4',course:'기초시각디자인 (Basic Visual Design)',role:'',tools:'Kling'},
+ {title:'岐路 (기로)',year:'2026',category:'AI INTERACTIVE CINEMA',
+  desc:'관객이 직접 이야기를 선택해나가는 AI 기반 인터랙티브 시네마.',
+  detail:'AI가 삶과 창작 영역 깊숙이 들어온 지금, 대체할 기술 혹은 돕는 도구로 나누는 이분법에서 벗어나 AI와 함께 살아가는 인간의 선택과 결정을 묻습니다.\n\n관객은 가상세계의 주인공이 되어 AI가 제시하는 다양한 가능성과 선택지를 직접 경험하며, 그 선택은 캐릭터의 모습과 이야기의 흐름, 세계의 변화, 최종 결말까지 만들어갑니다.\n\nAI는 인간보다 빠르게 정보를 모으고 가능성을 분석해 생각지 못한 선택지를 내놓습니다. 누군가에게는 자신의 자리를 위협하는 존재이지만, 다른 누군가에게는 닿지 못했던 아이디어를 실현하게 하는 도약의 도구가 됩니다. AI는 수많은 가능성을 펼쳐 보이지만, 그중 무엇을 선택할지는 여전히 인간의 몫입니다.',
+  image:'giro.jpg',video:'giro.mp4',course:'',role:'',tools:''},
  {title:'Daejeon Tourism',year:'2025',category:'AI WEBSITE',
   desc:'대전을 찾는 여행객을 위해 AI로 구성한 관광 웹사이트. 재밋 AI 웹사이트 제작 공모전 최우수상 수상작.',
   detail:'재밋(Zaemit) AI 웹사이트 제작 공모전에서 최우수상을 받은 작품입니다. AI를 활용해 사이트 전체를 구성하고, 대전을 찾는 여행객이 필요한 정보를 한곳에서 볼 수 있는 관광 웹사이트를 만들었습니다. 대전의 관광지와 최신 소식, 날씨, 추천 코스, 교통·숙박 같은 여행 정보를 메뉴별로 정리해 처음 대전을 찾는 사람도 쉽게 여행을 계획할 수 있도록 했습니다.',
@@ -618,6 +622,11 @@ const projects=[
   desc:'경일대학교 사진영상학과 2025 졸업영화 〈어제, 오늘 그리고 내일〉의 포스터 디자인.',
   detail:'경일대학교 사진영상학과 2025 졸업영화 〈어제, 오늘 그리고 내일〉의 포스터 디자인을 맡았습니다.',
   image:'thumbs/yesterday-today-tomorrow-poster.jpg',video:'',client:'경일대학교 사진영상학과 졸업영화',role:'Poster Design',tools:''},
+ {title:'Hanbat Design Competition 2026',year:'2026',category:'POSTER DESIGN',kind:'image',ratio:2000/1475,
+  desc:'국립한밭대학교 2026 전국 고교생 디자인 실기대회 포스터.',
+  detail:'국립한밭대학교가 주최하는 2026 전국 고교생 디자인 실기대회의 포스터를 디자인했습니다. 한밭대학교 로고의 아이덴티티를 반영해 조형적으로 풀어냈습니다.\n\n앞면에는 대회명과 일시를 크게 배치하고, 뒷면에는 응시 자격과 부문, 시상 내역, 신청 및 접수 방법 등 대회 정보를 정리했습니다.',
+  image:'hanbat-contest-thumb.jpg',full:'hanbat-contest-poster.jpg',video:'',
+  client:'국립한밭대학교',role:'Poster Design',tools:''},
  {title:'Still Boundary',year:'2025',category:'BOOK COVER DESIGN',kind:'image',ratio:4/3,
   desc:'한양여자대학교 무크지 〈스틸 바운더리〉의 표지 디자인.',
   detail:'한양여자대학교 무크지 〈스틸 바운더리(Still Boundary)〉의 표지를 디자인했습니다. 20대 여성들의 문학·비평·이론을 담은 비평 앤솔러지로, 각 목차의 내용에 맞는 사물을 하나씩 스크랩해 표지 위에 모았습니다. 사과, 집, 편지, 트리, 하트 같은 사물의 실루엣이 책 속에 담긴 글들을 표지에서 먼저 보여줍니다.',
